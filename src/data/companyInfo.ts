@@ -1,5 +1,5 @@
 export const companyInfo = {
-  name: "Zafar & Khawar Enterprises Pvt Ltd",
+  name: "Zafar Enterprises Pvt Ltd",
   shortName: "Z&K Solar",
   tagline: "Powering Pakistan's Industrial Future",
   phone: "+923164116252",
