@@ -27,13 +27,21 @@ export function FeaturedProjects() {
               className="group bg-card rounded-2xl overflow-hidden shadow-sm border border-border hover:shadow-lg transition-all duration-300 animate-fade-up"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              {/* Project Image Placeholder */}
+              {/* Project Image */}
               <div className="aspect-video bg-gradient-to-br from-primary/10 to-accent/10 relative overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-16 h-16 rounded-full bg-accent/20 flex items-center justify-center">
-                    <Zap className="h-8 w-8 text-accent" />
+                {project.image ? (
+                  <img 
+                    src={project.image} 
+                    alt={project.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-16 h-16 rounded-full bg-accent/20 flex items-center justify-center">
+                      <Zap className="h-8 w-8 text-accent" />
+                    </div>
                   </div>
-                </div>
+                )}
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
                   <span className="inline-block bg-accent text-accent-foreground px-3 py-1 rounded-full text-xs font-semibold">
                     {project.category.charAt(0).toUpperCase() + project.category.slice(1)}

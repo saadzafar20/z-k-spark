@@ -15,6 +15,7 @@ export const projects: Project[] = [
     capacity: "6.5 MWh",
     location: "Sheikhupura Faisalabad Rd",
     category: "textile",
+    image: "/projects/riaz-textile.jpg",
     description: "Large-scale textile mill solar installation with comprehensive EPC services."
   },
   {
