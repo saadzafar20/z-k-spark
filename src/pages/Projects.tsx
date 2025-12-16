@@ -3,12 +3,15 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ArrowRight, MapPin, Zap, Search } from "lucide-react";
-import { projects, projectCategories } from "@/data/projects";
+import { projects, projectCategories, Project } from "@/data/projects";
+import { ProjectGalleryDialog } from "@/components/ProjectGalleryDialog";
 import { Helmet } from "react-helmet-async";
 
 export default function Projects() {
   const [searchTerm, setSearchTerm] = useState("");
   const [activeCategory, setActiveCategory] = useState("all");
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+  const [dialogOpen, setDialogOpen] = useState(false);
 
   const filteredProjects = projects.filter((project) => {
     const matchesSearch = project.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -16,6 +19,11 @@ export default function Projects() {
     const matchesCategory = activeCategory === "all" || project.category === activeCategory;
     return matchesSearch && matchesCategory;
   });
+
+  const handleProjectClick = (project: Project) => {
+    setSelectedProject(project);
+    setDialogOpen(true);
+  };
 
   return (
     <>
@@ -95,7 +103,8 @@ export default function Projects() {
               {filteredProjects.map((project, index) => (
                 <div
                   key={project.id}
-                  className="group bg-card rounded-2xl overflow-hidden shadow-sm border border-border hover:shadow-lg transition-all duration-300"
+                  onClick={() => handleProjectClick(project)}
+                  className="group bg-card rounded-2xl overflow-hidden shadow-sm border border-border hover:shadow-lg transition-all duration-300 cursor-pointer"
                 >
                   {/* Project Image */}
                   <div className="aspect-video bg-gradient-to-br from-primary/10 to-accent/10 relative overflow-hidden">
@@ -161,6 +170,12 @@ export default function Projects() {
           </Button>
         </div>
       </section>
+
+      <ProjectGalleryDialog
+        project={selectedProject}
+        open={dialogOpen}
+        onOpenChange={setDialogOpen}
+      />
     </>
   );
 }
