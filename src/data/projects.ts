@@ -5,6 +5,7 @@ export interface Project {
   location: string;
   category: "industrial" | "commercial" | "textile";
   image?: string;
+  images?: string[];
   description?: string;
 }
 
@@ -16,6 +17,12 @@ export const projects: Project[] = [
     location: "Sheikhupura Faisalabad Rd",
     category: "textile",
     image: "/projects/riaz-textile.jpg",
+    images: [
+      "/projects/riaz-textile.jpg",
+      "/projects/riaz-textile-2.jpg",
+      "/projects/riaz-textile-3.jpg",
+      "/projects/riaz-textile-4.jpg"
+    ],
     description: "Large-scale textile mill solar installation with comprehensive EPC services."
   },
   {

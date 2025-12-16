@@ -1,9 +1,19 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MapPin, Zap } from "lucide-react";
-import { projects } from "@/data/projects";
+import { projects, Project } from "@/data/projects";
+import { ProjectGalleryDialog } from "@/components/ProjectGalleryDialog";
 
 export function FeaturedProjects() {
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+  const [dialogOpen, setDialogOpen] = useState(false);
+
+  const handleProjectClick = (project: Project) => {
+    setSelectedProject(project);
+    setDialogOpen(true);
+  };
+
   return (
     <section className="section-padding bg-secondary/30">
       <div className="container mx-auto px-4">
@@ -24,7 +34,8 @@ export function FeaturedProjects() {
           {projects.slice(0, 3).map((project, index) => (
             <div
               key={project.id}
-              className="group bg-card rounded-2xl overflow-hidden shadow-sm border border-border hover:shadow-lg transition-all duration-300 animate-fade-up"
+              onClick={() => handleProjectClick(project)}
+              className="group bg-card rounded-2xl overflow-hidden shadow-sm border border-border hover:shadow-lg transition-all duration-300 animate-fade-up cursor-pointer"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {/* Project Image */}
@@ -80,6 +91,12 @@ export function FeaturedProjects() {
           </Button>
         </div>
       </div>
+
+      <ProjectGalleryDialog
+        project={selectedProject}
+        open={dialogOpen}
+        onOpenChange={setDialogOpen}
+      />
     </section>
   );
 }
