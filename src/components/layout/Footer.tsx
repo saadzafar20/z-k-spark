@@ -28,7 +28,7 @@ export function Footer() {
               <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-accent to-highlight flex items-center justify-center">
                 <Sun className="h-6 w-6 text-white" />
               </div>
-              <span className="font-display font-bold text-xl">Z&K Solar</span>
+              <span className="font-display font-bold text-xl">Zafar Enterprises</span>
             </Link>
             <p className="text-primary-foreground/70 mb-6 leading-relaxed">
               {companyInfo.tagline}. Your trusted partner for industrial and commercial solar solutions in Pakistan.

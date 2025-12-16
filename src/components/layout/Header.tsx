@@ -47,10 +47,10 @@ export function Header() {
             </div>
             <div className="flex flex-col">
               <span className="font-display font-bold text-lg text-foreground leading-tight">
-                Z&K Solar
+                Zafar Enterprises
               </span>
               <span className="text-xs text-muted-foreground hidden sm:block">
-                Enterprises Pvt Ltd
+                Pvt Ltd
               </span>
             </div>
           </Link>
