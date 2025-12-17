@@ -1,11 +1,11 @@
 export const companyInfo = {
-  name: "Zafar Enterprises Pvt Ltd",
+  name: "Zafar Enterprises",
   shortName: "Zafar Enterprises",
   tagline: "Powering Pakistan's Industrial Future",
   phone: "+923164116252",
   whatsappLink: "https://wa.me/923164116252",
   phoneLink: "tel:+923164116252",
-  email: "info@zksolar.pk",
+  email: "info@zkesolar.com",
   address: "Lahore, Pakistan",
   
   stats: {

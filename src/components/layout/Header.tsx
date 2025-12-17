@@ -76,7 +76,7 @@ export function Header() {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-3">
             <Button variant="accent" asChild>
-              <Link to="/contact">Get Quote</Link>
+              <a href="mailto:info@zkesolar.com?subject=Free Quote Request">Get Quote</a>
             </Button>
           </div>
 
@@ -114,7 +114,7 @@ export function Header() {
               ))}
               <div className="pt-4 px-4">
                 <Button variant="accent" className="w-full" asChild>
-                  <Link to="/contact">Get Quote</Link>
+                  <a href="mailto:info@zkesolar.com?subject=Free Quote Request">Get Quote</a>
                 </Button>
               </div>
             </nav>
