@@ -31,6 +31,7 @@ export const projects: Project[] = [
     capacity: "2 MWh",
     location: "Manga Rd, Lahore",
     category: "textile",
+    image: "/projects/acrowaiving-mill.jpg",
     description: "Complete solar power system for textile manufacturing facility."
   },
   {
@@ -39,6 +40,7 @@ export const projects: Project[] = [
     capacity: "2 MWh",
     location: "Pakistan",
     category: "industrial",
+    image: "/projects/fauji-meat.jpg",
     description: "Industrial-grade solar installation for food processing facility."
   },
   {
@@ -47,6 +49,7 @@ export const projects: Project[] = [
     capacity: "—",
     location: "Port Qasim, Karachi",
     category: "commercial",
+    image: "/projects/khi-port-qasim.jpg",
     description: "Strategic solar deployment at Pakistan's major port facility."
   },
   {
@@ -55,6 +58,7 @@ export const projects: Project[] = [
     capacity: "2 MWh",
     location: "Lahore",
     category: "textile",
+    image: "/projects/combine-fabrics.jpg",
     description: "Sustainable energy solution for fabric manufacturing operations."
   }
 ];
