@@ -31,7 +31,7 @@ export const projects: Project[] = [
     capacity: "2 MWh",
     location: "Manga Rd, Lahore",
     category: "textile",
-    description: "Complete solar power system for textile manufacturing facility. **In collaboration with Groovers Energy and Landmark Energy Group.**"
+    description: "Complete solar power system for textile manufacturing facility. **Partner Project by Groovers Energy and Landmark Energy Group.**"
   },
   {
     id: "fauji-meat",
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     capacity: "2 MWh",
     location: "Pakistan",
     category: "industrial",
-    description: "Industrial-grade solar installation for food processing facility. **In collaboration with Groovers Energy and Landmark Energy Group.**"
+    description: "Industrial-grade solar installation for food processing facility. **Partner Project by Groovers Energy and Landmark Energy Group.**"
   },
   {
     id: "khi-port-qasim",

@@ -25,8 +25,8 @@ export function FeaturedProjects() {
             Partnership Projects
           </h2>
           <p className="text-muted-foreground text-lg">
-            Explore our successful solar installations across Pakistan's leading 
-            industrial and commercial facilities, delivered in collaboration with our trusted partners.
+            Explore successful solar installations across Pakistan's leading 
+            industrial and commercial facilities, including partner projects.
           </p>
         </div>
 
