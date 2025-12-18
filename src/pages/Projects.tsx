@@ -28,7 +28,7 @@ export default function Projects() {
   return (
     <>
       <Helmet>
-        <title>Solar Projects - Z&K Solar | Portfolio of Industrial Installations</title>
+        <title>Solar Projects - Zafar Enterprises | Portfolio of Industrial Installations</title>
         <meta 
           name="description" 
           content="Explore our portfolio of successful solar installations including Riaz Textile (6.5 MWh), Acrowaiving Mill, Fauji Meat, and more across Pakistan." 
@@ -142,9 +142,9 @@ export default function Projects() {
                         {project.location}
                       </span>
                     </div>
-                    <p className="text-muted-foreground text-sm">
-                      {project.description}
-                    </p>
+                    <p className="text-muted-foreground text-sm" dangerouslySetInnerHTML={{ 
+                      __html: project.description?.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') || '' 
+                    }} />
                   </div>
                 </div>
               ))}

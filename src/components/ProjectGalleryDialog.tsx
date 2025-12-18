@@ -121,7 +121,9 @@ export function ProjectGalleryDialog({
         {/* Description */}
         {project.description && (
           <div className="px-6 pb-6">
-            <p className="text-muted-foreground">{project.description}</p>
+            <p className="text-muted-foreground" dangerouslySetInnerHTML={{ 
+              __html: project.description.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') 
+            }} />
           </div>
         )}
       </DialogContent>
