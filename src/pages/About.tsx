@@ -31,10 +31,10 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <title>About Us - Z&K Solar | Pakistan's Trusted Solar Partner</title>
+        <title>About Us - Zafar Enterprises | Pakistan's Trusted Solar Partner</title>
         <meta 
           name="description" 
-          content="Learn about Zafar & Khawar Enterprises - 10+ years of excellence in industrial solar solutions with 15+ MW installed capacity across Pakistan." 
+          content="Learn about Zafar Enterprises - 10+ years connecting industries with trusted solar solutions and EPC partners across Pakistan." 
         />
       </Helmet>
 
@@ -54,9 +54,9 @@ export default function About() {
               Powering Pakistan's Industrial Future
             </h1>
             <p className="text-white/70 text-lg md:text-xl leading-relaxed">
-              {companyInfo.name} is a leading solar EPC company dedicated to 
-              transforming Pakistan's energy landscape through innovative and 
-              sustainable solar solutions.
+              {companyInfo.name} connects Pakistan's industries with trusted solar 
+              solutions and certified EPC partners to transform the country's energy 
+              landscape through sustainable solar power.
             </p>
           </div>
         </div>
@@ -76,18 +76,18 @@ export default function About() {
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
                   Founded with a vision to make clean energy accessible to Pakistan's 
-                  industrial sector, Z&K Solar has grown to become one of the country's 
-                  most trusted solar EPC providers.
+                  industrial sector, Zafar Enterprises has grown to become one of the country's 
+                  most trusted solar solutions partners.
                 </p>
                 <p>
                   Our journey began with a simple belief: that every factory, mill, and 
                   commercial facility deserves access to reliable, cost-effective solar 
-                  energy. Over the years, we've turned this belief into reality for 
-                  dozens of clients across Pakistan.
+                  energy. We work with certified EPC partners to turn this belief into 
+                  reality for our clients across Pakistan.
                 </p>
                 <p>
-                  Today, with over 15 MW of installed capacity and a team of experienced 
-                  engineers, we continue to lead the transition to sustainable energy in 
+                  Today, with partnerships spanning over 15 MW of installed capacity, 
+                  we continue to connect industries with the best solar solutions in 
                   Pakistan's industrial heartland.
                 </p>
               </div>
@@ -161,7 +161,7 @@ export default function About() {
             
             <div className="order-1 lg:order-2">
               <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-                Why Choose Z&K
+                Why Choose Us
               </span>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-3 mb-6">
                 Your Trusted Solar Partner

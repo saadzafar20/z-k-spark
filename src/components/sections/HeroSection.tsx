@@ -31,7 +31,7 @@ export function HeroSection() {
           <div className="animate-fade-up">
             <span className="inline-flex items-center gap-2 bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium mb-6 backdrop-blur-sm border border-accent/30">
               <span className="w-2 h-2 bg-accent rounded-full animate-pulse" />
-              Pakistan's Leading Solar EPC Company
+              Your Trusted Solar Solutions Partner
             </span>
           </div>
           
@@ -44,8 +44,8 @@ export function HeroSection() {
           </h1>
           
           <p className="text-lg sm:text-xl text-white/70 mb-8 max-w-2xl leading-relaxed animate-fade-up animation-delay-200">
-            Cut your electricity costs by up to 70% with our turnkey EPC solutions. 
-            From design to installation and maintenance, we deliver reliable solar power 
+            Cut your electricity costs by up to 70% with our solar solutions. 
+            We connect you with trusted EPC partners to deliver reliable solar power 
             for factories, textile mills, and commercial buildings.
           </p>
 
