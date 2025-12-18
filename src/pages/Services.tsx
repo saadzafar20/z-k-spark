@@ -17,10 +17,10 @@ export default function Services() {
   return (
     <>
       <Helmet>
-        <title>Solar Services - Z&K Solar | Industrial Solar EPC Pakistan</title>
+        <title>Solar Services - Zafar Enterprises | Industrial Solar Solutions Pakistan</title>
         <meta 
           name="description" 
-          content="Comprehensive solar services: System design, industrial EPC, net metering, O&M, energy audits, and inverter solutions for factories and commercial buildings." 
+          content="Comprehensive solar services: System design, industrial solutions, net metering, O&M, energy audits, and inverter solutions for factories and commercial buildings." 
         />
       </Helmet>
 

@@ -22,15 +22,15 @@ export const services: Service[] = [
     ]
   },
   {
-    id: "industrial-epc",
-    title: "Industrial Solar EPC",
-    description: "End-to-end engineering, procurement, and construction services for large-scale industrial projects.",
+    id: "industrial-solar",
+    title: "Industrial Solar Solutions",
+    description: "Large-scale solar solutions for industrial facilities through our network of certified EPC partners.",
     icon: "Zap",
     features: [
-      "Turnkey project delivery",
+      "Partner-delivered projects",
       "MW-scale installations",
       "Industrial-grade components",
-      "Project management"
+      "Project coordination"
     ]
   },
   {

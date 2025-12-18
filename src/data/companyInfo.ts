@@ -36,7 +36,7 @@ export const whyChooseUs = [
   },
   {
     title: "Complete Support",
-    description: "From design to O&M, we're with you every step"
+    description: "From consultation to O&M through our trusted partners"
   },
   {
     title: "Best ROI",
