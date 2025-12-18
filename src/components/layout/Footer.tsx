@@ -30,7 +30,7 @@ export function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-display font-bold text-xl">Zafar Enterprises</span>
-                <span className="text-xs text-primary-foreground/70">Solar Solutions Partner</span>
+                <span className="text-xs text-primary-foreground/70">in collaboration with partners</span>
               </div>
             </Link>
             <p className="text-primary-foreground/70 mb-6 leading-relaxed">

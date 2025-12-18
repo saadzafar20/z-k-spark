@@ -39,7 +39,7 @@ export default function Services() {
               Complete Solar Solutions for Industry
             </h1>
             <p className="text-white/70 text-lg md:text-xl leading-relaxed">
-              From initial consultation to long-term maintenance, we provide comprehensive 
+              In collaboration with our trusted partners, we provide comprehensive 
               solar services tailored to your industrial and commercial energy needs.
             </p>
           </div>

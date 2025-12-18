@@ -54,9 +54,9 @@ export default function About() {
               Powering Pakistan's Industrial Future
             </h1>
             <p className="text-white/70 text-lg md:text-xl leading-relaxed">
-              {companyInfo.name} connects Pakistan's industries with trusted solar 
-              solutions and certified EPC partners to transform the country's energy 
-              landscape through sustainable solar power.
+              {companyInfo.name}, in collaboration with our trusted partners, is dedicated to 
+              transforming Pakistan's energy landscape through innovative and 
+              sustainable solar solutions.
             </p>
           </div>
         </div>
@@ -76,19 +76,19 @@ export default function About() {
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
                   Founded with a vision to make clean energy accessible to Pakistan's 
-                  industrial sector, Zafar Enterprises has grown to become one of the country's 
-                  most trusted solar solutions partners.
+                  industrial sector, Zafar Enterprises, in collaboration with our partners, 
+                  has grown to become one of the country's most trusted names in solar solutions.
                 </p>
                 <p>
                   Our journey began with a simple belief: that every factory, mill, and 
                   commercial facility deserves access to reliable, cost-effective solar 
-                  energy. We work with certified EPC partners to turn this belief into 
-                  reality for our clients across Pakistan.
+                  energy. Working together with our partners, we've turned this belief 
+                  into reality for dozens of clients across Pakistan.
                 </p>
                 <p>
-                  Today, with partnerships spanning over 15 MW of installed capacity, 
-                  we continue to connect industries with the best solar solutions in 
-                  Pakistan's industrial heartland.
+                  Today, in collaboration with our partners, we've facilitated over 15 MW 
+                  of installed capacity and continue to lead the transition to sustainable 
+                  energy in Pakistan's industrial heartland.
                 </p>
               </div>
             </div>

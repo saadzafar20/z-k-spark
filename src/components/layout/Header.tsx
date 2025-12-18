@@ -50,7 +50,7 @@ export function Header() {
                 Zafar Enterprises
               </span>
               <span className="text-xs text-muted-foreground hidden sm:block">
-                Solar Solutions Partner
+                in collaboration with partners
               </span>
             </div>
           </Link>
