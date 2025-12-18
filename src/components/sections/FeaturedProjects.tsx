@@ -26,7 +26,7 @@ export function FeaturedProjects() {
           </h2>
           <p className="text-muted-foreground text-lg">
             Explore our successful solar installations across Pakistan's leading 
-            industrial and commercial facilities, including projects delivered through our sub contractors.
+            industrial and commercial facilities, delivered in collaboration with our trusted partners.
           </p>
         </div>
 
