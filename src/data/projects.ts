@@ -31,8 +31,7 @@ export const projects: Project[] = [
     capacity: "2 MWh",
     location: "Manga Rd, Lahore",
     category: "textile",
-    image: "/projects/acrowaiving-mill.jpg",
-    description: "Complete solar power system for textile manufacturing facility."
+    description: "Complete solar power system for textile manufacturing facility. **Through collaboration with sub contractor Landmark Energy.**"
   },
   {
     id: "fauji-meat",
@@ -40,8 +39,7 @@ export const projects: Project[] = [
     capacity: "2 MWh",
     location: "Pakistan",
     category: "industrial",
-    image: "/projects/fauji-meat.jpg",
-    description: "Industrial-grade solar installation for food processing facility."
+    description: "Industrial-grade solar installation for food processing facility. **Through collaboration with sub contractor Landmark Energy.**"
   },
   {
     id: "khi-port-qasim",
