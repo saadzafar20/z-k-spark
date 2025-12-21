@@ -22,11 +22,11 @@ export function FeaturedProjects() {
             Our Portfolio
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-3 mb-4">
-            Partnership Projects
+            Our Projects
           </h2>
           <p className="text-muted-foreground text-lg">
             Explore successful solar installations across Pakistan's leading 
-            industrial and commercial facilities, including partner projects.
+            industrial and commercial facilities, delivered in collaboration with Landmark Energy.
           </p>
         </div>
 

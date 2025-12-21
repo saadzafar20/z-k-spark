@@ -21,9 +21,9 @@ export function WhyChooseUs() {
               <span className="text-accent">Industrial Solar</span>
             </h2>
             <p className="text-primary-foreground/70 text-lg leading-relaxed mb-8">
-              With over a decade of experience in Pakistan's solar industry, we've 
-              built a reputation for delivering high-quality, reliable solar solutions 
-              that maximize your energy savings and ROI.
+              In collaboration with Landmark Energy, we deliver high-quality, reliable 
+              solar solutions that maximize your energy savings and ROI. Together, we've 
+              built a strong reputation in Pakistan's solar industry.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4">

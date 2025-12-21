@@ -46,9 +46,9 @@ export function CTASection() {
               <span className="text-accent">Energy Costs</span> by 70%?
             </h2>
             <p className="text-primary-foreground/70 text-lg leading-relaxed mb-8">
-              Get a free site survey and customized solar proposal for your 
-              facility. Our experts will analyze your energy needs and design 
-              the perfect solution.
+              In collaboration with Landmark Energy, get a free site survey and 
+              customized solar proposal for your facility. Our experts will analyze 
+              your energy needs and design the perfect solution.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
