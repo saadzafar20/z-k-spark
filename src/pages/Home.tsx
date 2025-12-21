@@ -4,22 +4,20 @@ import { ServicesPreview } from "@/components/sections/ServicesPreview";
 import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
 import { FeaturedProjects } from "@/components/sections/FeaturedProjects";
 import { ClientLogos } from "@/components/sections/ClientLogos";
-import { Testimonials } from "@/components/sections/Testimonials";
 import { CTASection } from "@/components/sections/CTASection";
-import { FAQSection } from "@/components/sections/FAQSection";
 import { Helmet } from "react-helmet-async";
 
 export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Z&K Solar - Industrial & Commercial Solar Solutions in Pakistan</title>
+        <title>Zafar Enterprises - Industrial & Commercial Solar Solutions in Pakistan | In Collaboration with Landmark Energy</title>
         <meta 
           name="description" 
-          content="Pakistan's leading solar EPC company. Cut electricity costs by 70% with turnkey solar solutions for factories, textile mills, and commercial buildings." 
+          content="In collaboration with Landmark Energy. Cut electricity costs by 70% with turnkey solar solutions for factories, textile mills, and commercial buildings in Pakistan." 
         />
-        <meta property="og:title" content="Z&K Solar - Industrial Solar Solutions Pakistan" />
-        <meta property="og:description" content="Turnkey solar EPC solutions for industrial and commercial clients. 15+ MW installed capacity." />
+        <meta property="og:title" content="Zafar Enterprises - Industrial Solar Solutions Pakistan | Landmark Energy Collaboration" />
+        <meta property="og:description" content="Solar solutions for industrial and commercial clients in collaboration with Landmark Energy. 15+ MW installed capacity." />
         <link rel="canonical" href="/" />
       </Helmet>
       
@@ -29,8 +27,6 @@ export default function Home() {
       <WhyChooseUs />
       <FeaturedProjects />
       <ClientLogos />
-      <Testimonials />
-      <FAQSection />
       <CTASection />
     </>
   );

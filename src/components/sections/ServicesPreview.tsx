@@ -24,7 +24,7 @@ export function ServicesPreview() {
             Complete Solar Solutions
           </h2>
           <p className="text-muted-foreground text-lg">
-            From initial consultation to long-term maintenance, we provide end-to-end 
+            In collaboration with Landmark Energy, we provide end-to-end 
             solar services for industrial and commercial clients.
           </p>
         </div>
